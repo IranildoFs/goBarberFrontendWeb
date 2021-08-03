@@ -1,46 +1,98 @@
-# Getting Started with Create React App
+<h1 align="center"> GoBarber Frontend Web
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    <img alt="Tela Logon GoBarber" title="#GoBarber" src="./imgGit/1.png" />
+</h1>
 
-## Available Scripts
+<h1 align="center">
+    <img alt="Tela Cadastro GoBarber" title="#GoBarber" src="./imgGit/2.png" />
+</h1>
 
-In the project directory, you can run:
+<p align="center">
+ <a href="#-sobre-o-projeto">Sobre</a> •
+ <a href="#-layout">Layout</a> • 
+ <a href="#-como-executar-o-projeto">Como executar</a> • 
+ <a href="#-tecnologias">Tecnologias</a> • 
+ <a href="#-autor">Autor</a> • 
+</p>
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 💻 Sobre o projeto
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+O GoBarber é um projeto desenvolvido durante o GoStack da RockeatSeat. Usando as configurações do esLint e criação de componentes com styled-components.
 
-### `yarn test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🎨 Layout
 
-### `yarn build`
+### Telas do GoBarber
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="Tela Logon GoBarber" title="#GoBarber" src="./imgGit/1.png" />
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="Tela de Cadastro GoBarber" title="#GoBarber" src="./imgGit/2.png" />
+</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Como executar o projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Este projeto possui uma pasta:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. Frontend 
 
-## Learn More
+### Pré-requisitos
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 🧭 Rodando a aplicação web
+
+```bash
+
+# Clone este repositório
+$ git clone github.com/IranildoFs/goBarberFrontendWeb.git
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd gobarberWeb
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ yarn start 
+
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+
+```
+
+---
+
+## 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+### **Website**  ([React](https://reactjs.org/)  +  [TypeScript](https://www.typescriptlang.org/))
+
+-   **[React]**
+-   **[TypeScript]**
+
+## 💪 Como contribuir para o projeto
+
+1. Faça um **fork** do projeto.
+2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
+3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
+4. Envie as suas alterações: `git push origin my-feature`
+> Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](./CONTRIBUTING.md)
+
+---
+
+## 🦸 Autor
+
+Iranildo Fialho da Silva
